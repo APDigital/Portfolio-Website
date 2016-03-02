@@ -1,0 +1,324 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+h1 {
+	font-family: 'Raleway';
+	font-size: 3em;
+}
+h2{
+	font-family: 'Raleway';
+	font-size: 2em;
+}
+h3{
+	font-family: 'Raleway';
+	}
+p {
+	font-family: 'Raleway';
+	font-size: 1.6em;
+}
+a {
+	font-family: 'Raleway';
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+
+.hero{
+	background:url("http://i.imgur.com/TgNTfmb.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+.text{
+	float: right;
+	color: white;
+	text-align: center;
+	padding: 15em;
+}
+.button{
+	display: inline-block;
+	color: #01263B;
+	height: 20px;
+	padding: 18px 60px;
+	border: 2px solid #01263B;
+	text-transform: uppercase;
+	border-radius: 60px;
+	clear: both;
+}	
+.button:hover{
+	background-color: #01263B;
+	color: white;
+}
+.white{
+	color: white;
+	border-color: white;
+}
+.white:hover{
+	background-color: white;
+	color: #01263B;
+}
+.text-center{
+	text-align: center;
+}
+.background-white{
+	background-color: white;
+}
+.section{
+	padding: 80px 20px;
+}
+.description{
+	margin-bottom: 50px;
+}
+.feature img{
+	max-width: 15em;
+	display: inline;
+	margin-left: 5em;
+}
+.feature h1{
+	display: block;
+	text-align: center;
+}
+.feature p{
+	max-width: 15em;
+	text-align: center;
+}
+.feature{
+	display: inline-block;
+	padding: 0 5em;
+	margin-left: 2em;
+}
+.button-feature{
+	display: inline-block;
+	color: #01263B;
+	height: 20px;
+	padding: 18px 60px;
+	border: 2px solid #01263B;
+	text-transform: uppercase;
+	border-radius: 60px;
+	clear: both;
+	margin-left: 48em;
+
+}	
+.button-feature:hover{
+	background-color: #01263B;
+	color: white;
+}
+
+.artwork{
+	background:url("http://i.imgur.com/TgNTfmb.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 90vh;
+}
+.artwork-text{
+	text-align: center;
+	color: white;
+}
+.Red-Bubble{
+	margin-left: 25em;
+	vertical-align: middle;
+}
+.Red-Bubble2{
+	visibility: hidden;
+}
+.linkedsites-text{
+	text-align: center;
+	margin-bottom: 2em;
+}
+.LinkedSites{
+	height: 50vh;
+}
+.image1{
+	max-height: 15em;
+	display: inline-block;
+	padding: 0 1em;
+}
+.image2{
+	max-height: 15em;
+	display: inline-block;
+	padding: 0 1em;
+}
+.image3{
+	max-height: 15em;
+	display: inline-block;
+	padding: 0 1em;
+}
+.image4{
+	max-height: 15em;
+	display: inline-block;
+	padding: 0 1em;
+}
+.image5{
+	max-height: 15em;
+	display: inline-block;
+	padding: 0 1em;
+}
+.contact{
+	max-height: 10vh;
+	overflow: hidden;
+	vertical-align: middle;
+	transform: translateY(-60%);
+}
+.contact-text-center{
+	text-align: center;
+}
+@media screen and (max-width: 1890px) {
+.image5{
+	visibility: hidden;
+}
+}
+@media screen and (max-width: 1680px) {
+.feature{
+	display: inline-block;
+	padding: 0 3.5em;
+}
+.button-feature{
+	margin-left: 43em;
+}
+.Red-Bubble{
+	margin-left: 20em;
+	vertical-align: middle;
+}
+.image5{
+	visibility: hidden;
+}
+}
+
+@media screen and (max-width: 1580px) {
+.feature{
+	display: inline-block;
+	padding: 0 1em;
+}
+.button-feature{
+		margin-left: 34em;
+}
+.Red-Bubble{
+	margin-left: 10em;
+	vertical-align: middle;
+}
+.contact{
+	max-height: 12vh;
+}
+.image1{
+	padding: 0 3em;
+}
+.image2{
+	padding: 0 3em;
+}
+.image3{
+	padding: 0 3em;
+}
+.image4{
+	visibility: hidden;
+}
+}
+@media screen and (max-width: 1480px) {
+.feature{
+	display: inline-block;
+	padding: 0 0em;
+}
+.contact{
+	max-height: 12vh;
+}
+}
+@media screen and (max-width: 1380px) {
+.feature{
+	display: inline-block;
+	padding: 0 2em;
+}
+.button-feature{
+	margin-left: 41em;
+	margin-top: -34em;
+	height: 80px;
+	padding-top: 80px;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+.Red-Bubble{
+	margin-left: 3em;
+	vertical-align: middle;
+}
+.image1{
+	padding: 0 6em;
+}
+.image2{
+	padding: 0 6em;
+	}
+.image3{
+	visibility: hidden;
+}
+}
+@media screen and (max-width: 1180px) {
+.feature{
+	display: inline-block;
+	padding: 0 2em;
+	margin-left: 17em;
+}
+.button-feature{
+	visibility: hidden;
+}
+.Red-Bubble{
+	margin-left: 1em;
+	vertical-align: middle;
+}
+.image1{
+	padding: 0 3em;
+}
+.image2{
+	padding: 0 3em;
+	}
+}
+@media screen and (max-width: 980px) {
+.nav{
+	margin-top: 14em;
+}
+.hero{
+	margin-top: -14em;
+}
+.Red-Bubble{
+	visibility: hidden;
+}
+.Red-Bubble2{
+	visibility: visible;
+	margin-left: 1em;
+	vertical-align: middle;
+	margin-top: -48em;
+}
+.image1{
+	padding: 0 2em;
+}
+.image2{
+	padding: 0 2em;
+	}
+}
+
+@media screen and (max-width: 920px) {
+.hero{
+	height: 120vh; 
+}
+.feature{
+	display: inline-block;
+	padding: 0 2em;
+	margin-left: 10em;
+}
+.Red-Bubble{
+	visibility: hidden;
+}
+.Red-Bubble2{
+	visibility: visible;
+	margin-left: 1em;
+	vertical-align: middle;
+	margin-top: -48em;
+}
+.image1{
+	padding: 0 0.5em;
+}
+.image2{
+	padding: 0 0.5em;
+	}
+}
+@media screen and (max-width: 790px) {
+.image2{
+	visibility: hidden;
+
+}
+	}
