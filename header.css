@@ -1,0 +1,25 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+.nav{
+	background-color:white; 
+	text-align: center;
+	position: fixed;
+	width: fill;
+	float: right;
+}
+ li {
+	display: inline-block;
+	margin:0 2em;
+	font-family: 'Raleway';
+	font-size: 1em;
+	list-style-type: none;
+
+}
+li a {
+	color: black;
+	text-decoration: none;
+
+}
+li a:hover{
+	color: #6F536B ;
+
+}
