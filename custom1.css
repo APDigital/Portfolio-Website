@@ -58,6 +58,7 @@ ul{
 }
 .text-center{
 	text-align: center;
+	margin-top: 2em;
 }
 .background-white{
 	background-color: white;
@@ -120,10 +121,6 @@ ul{
 .Red-Bubble2{
 	visibility: hidden;
 }
-.linkedsites-text{
-	text-align: center;
-	margin-bottom: 2em;
-}
 .LinkedSites{
 	height: 50vh;
 }
@@ -132,25 +129,40 @@ ul{
 	display: inline-block;
 	padding: 0 1em;
 }
+.image1:hover{
+	opacity: 0.55;
+}
 .image2{
 	max-height: 15em;
 	display: inline-block;
 	padding: 0 1em;
+}
+.image2:hover{
+	opacity: 0.55;
 }
 .image3{
 	max-height: 15em;
 	display: inline-block;
 	padding: 0 1em;
 }
+.image3:hover{
+	opacity: 0.55;
+}
 .image4{
 	max-height: 15em;
 	display: inline-block;
 	padding: 0 1em;
 }
+.image4:hover{
+	opacity: 0.55;
+}
 .image5{
 	max-height: 15em;
 	display: inline-block;
 	padding: 0 1em;
+}
+.image5:hover{
+	opacity: 0.55;
 }
 .contact{
 	max-height: 10vh;

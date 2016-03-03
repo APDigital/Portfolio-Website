@@ -76,6 +76,9 @@ ul{
 	height: 50vh;
 	clear: both;
 }
+.LinkedSites h2{
+	padding: 2em 0;
+}
 .image1{
 	max-height: 8em;
 	display: inline-block;
@@ -117,6 +120,7 @@ ul{
 	opacity: 0.55;
 }
 .contact{
+	margin-top: 8em;
 	max-height: 40vh;
 	overflow: hidden;
 	vertical-align: middle;
@@ -129,7 +133,7 @@ ul{
 
 .grid {
 	position: relative;
-	margin: 0 auto;
+	margin: 0 auto 2em auto;
 	padding: 1em 0 2em;
 	max-width: 1250px;
 	list-style: none;
@@ -237,6 +241,7 @@ figure.effect-marley:hover h2::after {
 	transform: translate3d(0,0,0);
 }
 }
+
 @media screen and (max-width: 1890px) {
 .wrapper{
 	height: 36.8vh;
