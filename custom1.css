@@ -1,4 +1,12 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway');
+.nav{
+	background-color:white; 
+	text-align: center;
+	position: fixed;
+	width: fill;
+	float: right;
+	z-index: 1000;
+}
 h1 {
 	font-family: 'Raleway';
 	font-size: 3em;
@@ -23,17 +31,28 @@ ul{
 }
 
 .hero{
-	background:url("http://i.imgur.com/TgNTfmb.jpg") no-repeat center;
+	background:url("https://free4kwallpapers.com/wallpaper/science/low-poly-ice/0RGX/2880/1800/download") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 100vh;
+	height: 50vh;
+}
+.wrapper{
+	float: right;
+	color: #01263B;
+	text-align: center;
+	padding: 4em;
+	height: 37.7vh;
 }
 .text{
-	float: right;
-	color: white;
-	text-align: center;
-	padding: 15em;
+	z-index: 1000;
+	opacity: 1;
 }
+.text-center{
+	text-align: center;
+	margin: 1em 0;
+	clear: both;
+}
+
 .button{
 	display: inline-block;
 	color: #01263B;
@@ -72,20 +91,21 @@ ul{
 .feature img{
 	max-width: 15em;
 	display: inline;
-	margin-left: 5em;
+	margin-left: 7em;
 }
 .feature h1{
 	display: block;
 	text-align: center;
+
 }
 .feature p{
 	max-width: 15em;
 	text-align: center;
+	margin-left: 2em;
 }
 .feature{
 	display: inline-block;
 	padding: 0 5em;
-	margin-left: 2em;
 }
 .button-feature{
 	display: inline-block;
@@ -96,7 +116,7 @@ ul{
 	text-transform: uppercase;
 	border-radius: 60px;
 	clear: both;
-	margin-left: 48em;
+	margin-left: 50em;
 
 }	
 .button-feature:hover{
@@ -105,7 +125,7 @@ ul{
 }
 
 .artwork{
-	background:url("http://i.imgur.com/TgNTfmb.jpg") no-repeat center;
+	background:url("https://free4kwallpapers.com/wallpaper/science/low-poly-ice/0RGX/2880/1800/download") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
 	height: 90vh;
@@ -122,7 +142,12 @@ ul{
 	visibility: hidden;
 }
 .LinkedSites{
-	height: 50vh;
+	height: 48vh;
+	padding-top: -2em;
+}
+.items{
+	margin-top: 2em;
+	padding-top: -2em;
 }
 .image1{
 	max-height: 15em;
@@ -165,7 +190,7 @@ ul{
 	opacity: 0.55;
 }
 .contact{
-	max-height: 10vh;
+	max-height: 14vh;
 	overflow: hidden;
 	vertical-align: middle;
 	transform: translateY(-60%);
@@ -331,6 +356,5 @@ ul{
 @media screen and (max-width: 790px) {
 .image2{
 	visibility: hidden;
-
 }
 	}
