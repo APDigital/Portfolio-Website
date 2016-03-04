@@ -55,10 +55,8 @@ ul{
 	height: 50vh;
 }
 .wrapper{
-	background-color: #000F17;
-	opacity: 0.55;
 	float: right;
-	color: white;
+	color: #01263B;
 	text-align: center;
 	padding: 4em;
 	height: 37.7vh;
