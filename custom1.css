@@ -113,13 +113,28 @@ ul{
 	border-radius: 60px;
 	clear: both;
 	margin-left: 50em;
-
 }	
 .button-feature:hover{
 	background-color: #0F497B;
 	color: white;
 }
-
+.button-mobile{
+	display: inline-block;
+	color: #0F497B;
+	height: 20px;
+	padding: 18px 60px;
+	border: 2px solid #0F497B;
+	text-transform: uppercase;
+	border-radius: 60px;
+	clear: both;
+	margin-left: 50em;
+	margin-top: 2em;
+	visibility: hidden;
+}	
+.button-mobile:hover{
+	background-color: #0F497B;
+	color: white;
+}
 .artwork{
 	background:url("https://free4kwallpapers.com/wallpaper/science/low-poly-ice/0RGX/2880/1800/download") no-repeat center;
 	background-size: cover;
@@ -128,7 +143,7 @@ ul{
 }
 .artwork-text{
 	text-align: center;
-	color: white;
+	color: #01263B;
 	margin-top: -1em;
 }
 .Red-Bubble{
@@ -188,7 +203,7 @@ ul{
 	opacity: 0.55;
 }
 .contact{
-	max-height: 14vh;
+	max-height: 15vh;
 	overflow: hidden;
 	vertical-align: middle;
 	transform: translateY(-60%);
@@ -202,10 +217,10 @@ ul{
 @media screen and (max-width: 1680px) {
 .feature{
 	display: inline-block;
-	padding: 0 3.5em;
+	padding: 0 2em;
 }
 .button-feature{
-	margin-left: 43em;
+	margin-left: 41em;
 }
 .Red-Bubble{
 	margin-left: 20em;
@@ -214,25 +229,31 @@ ul{
 .image5{
 	visibility: hidden;
 }
+
 }
 
 @media screen and (max-width: 1580px) {
+.hero{
+	height: 60vh;
+	}
 .feature{
 	display: inline-block;
 	padding: 0 1em;
 }
 .button-feature{
-		margin-left: 34em;
+		margin-left: 38em;
 }
 .Red-Bubble{
 	margin-left: 10em;
 	vertical-align: middle;
 }
 .contact{
-	max-height: 12vh;
+	max-height: 20vh;
+	margin-top: 4em;
 }
 .image1{
 	padding: 0 3em;
+	margin-left: 5em;
 }
 .image2{
 	padding: 0 3em;
@@ -243,20 +264,31 @@ ul{
 .image4{
 	visibility: hidden;
 }
+
 }
 @media screen and (max-width: 1480px) {
 .feature{
 	display: inline-block;
-	padding: 0 0em;
+	padding: 0 5em;
 }
-.contact{
-	max-height: 12vh;
+.image3{
+	visibility: hidden;
 }
+.button {
+	visibility: hidden;
 }
-@media screen and (max-width: 1380px) {
-.feature{
-	display: inline-block;
-	padding: 0 2em;
+.button-mobile{
+	margin-left: 40em;
+	margin-top: -15em;
+	height: 80px;
+	padding-top: 80px;
+	padding-right: 60px;
+	padding-left: 60px;
+	visibility: visible;
+}	
+.button-mobile:hover{
+	background-color: #0F497B;
+	color: white;
 }
 .button-feature{
 	margin-left: 41em;
@@ -266,19 +298,32 @@ ul{
 	padding-right: 60px;
 	padding-left: 60px;
 }
+.image1{
+	margin-right:2em;
+}
+.image2{
+	margin-left:2em;
+	}
+
+}
+@media screen and (max-width: 1380px) {
+.feature{
+	display: inline-block;
+	padding: 0 2em;
+}
+
 .Red-Bubble{
 	margin-left: 3em;
 	vertical-align: middle;
 }
 .image1{
-	padding: 0 6em;
+	margin-right:2em;
 }
 .image2{
-	padding: 0 6em;
+	margin-left:2em;
 	}
-.image3{
-	visibility: hidden;
 }
+
 }
 @media screen and (max-width: 1180px) {
 .feature{
@@ -286,9 +331,7 @@ ul{
 	padding: 0 2em;
 	margin-left: 17em;
 }
-.button-feature{
-	visibility: hidden;
-}
+
 .Red-Bubble{
 	margin-left: 1em;
 	vertical-align: middle;
@@ -307,6 +350,12 @@ ul{
 .hero{
 	margin-top: -14em;
 }
+.button-feature{
+	visibility: hidden;
+}
+.button-mobile{
+	visibility: hidden;
+}
 .Red-Bubble{
 	visibility: hidden;
 }
@@ -321,18 +370,19 @@ ul{
 }
 .image2{
 	padding: 0 2em;
-	}
-}
-
-@media screen and (max-width: 920px) {
-.hero{
-	height: 120vh; 
 }
 .feature{
 	display: inline-block;
 	padding: 0 2em;
 	margin-left: 10em;
 }
+}
+
+@media screen and (max-width: 920px) {
+.hero{
+	height: 120vh; 
+}
+
 .Red-Bubble{
 	visibility: hidden;
 }
@@ -349,8 +399,11 @@ ul{
 	padding: 0 0.5em;
 	}
 }
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 890px) {
 .image2{
 	visibility: hidden;
+}
+.feature{
+	margin-left: 2em;
 }
 	}
