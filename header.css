@@ -5,6 +5,11 @@
 	position: fixed;
 	width: fill;
 	float: right;
+	z-index: 1000;
+}
+span{
+	color: #0F497B;
+	font-weight: bold;
 }
  li {
 	display: inline-block;
@@ -20,6 +25,7 @@ li a {
 
 }
 li a:hover{
-	color: #6F536B ;
+	color: #0F497B;
+	font-weight: bold;
 
 }

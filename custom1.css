@@ -1,12 +1,5 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway');
-.nav{
-	background-color:white; 
-	text-align: center;
-	position: fixed;
-	width: fill;
-	float: right;
-	z-index: 1000;
-}
+
 h1 {
 	font-family: 'Raleway';
 	font-size: 3em;
@@ -55,16 +48,16 @@ ul{
 
 .button{
 	display: inline-block;
-	color: #01263B;
+	color: #0F497B;
 	height: 20px;
 	padding: 18px 60px;
-	border: 2px solid #01263B;
+	border: 2px solid #0F497B;
 	text-transform: uppercase;
 	border-radius: 60px;
 	clear: both;
 }	
 .button:hover{
-	background-color: #01263B;
+	background-color: #0F497B;
 	color: white;
 }
 .white{
@@ -73,7 +66,7 @@ ul{
 }
 .white:hover{
 	background-color: white;
-	color: #01263B;
+	color: #0F497B;
 }
 .text-center{
 	text-align: center;
@@ -112,10 +105,10 @@ ul{
 }
 .button-feature{
 	display: inline-block;
-	color: #01263B;
+	color: #0F497B;
 	height: 20px;
 	padding: 18px 60px;
-	border: 2px solid #01263B;
+	border: 2px solid #0F497B;
 	text-transform: uppercase;
 	border-radius: 60px;
 	clear: both;
@@ -123,7 +116,7 @@ ul{
 
 }	
 .button-feature:hover{
-	background-color: #01263B;
+	background-color: #0F497B;
 	color: white;
 }
 

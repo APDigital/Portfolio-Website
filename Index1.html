@@ -4,14 +4,33 @@
 	<title>APDigital Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="custom1.css">
 	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" href="animations.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
+<script>
+	//add scripts <script>
+	//$(window).scroll(function() {
+		//$('.items').each(function(){
+		//var imagePos = $(this).offset().top;
+
+		//var topOfWindow = $(window).scrollTop();
+			//if (imagePos < topOfWindow+900) {
+				//$(this).addClass("slideUp");
+			//}
+		//});
+	//});
+	//$('#animatedElement').hover(function() {
+		//$(this).addClass("floating");
+	//}); 
+</script>
+</script>
 <body>
 <!--header-->
 <header class="header">
 	<nav class="nav">
 		<ul class="menu">
 			<li class="item">
-				<a href="#">Home</a>
+				<a href="#"><span>Home</span></a>
 			</li>
 			<li class="item active">
 				<a href="#">About</a>
@@ -40,7 +59,7 @@
 				<h1>APDigital Portfolio</h1>
 				<h2>Digital and Hand Made Artwork</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-				<a href = "file:///C:/Users/APearson/Documents/Web%20Design%20Experiment/Profile%20Site/Index2.html" class="button white">Show me More</a>
+				<a href = "file:///C:/Users/APearson/Documents/Web%20Design%20Experiment/Profile%20Site/Index2.html" class="button white">Go to Gallery</a>
 			</article>
 		</div>
 	</div>
@@ -49,17 +68,17 @@
 	<div class="grid">
 		<h2 class="text-center">About</h2>
 		<p class="description text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-		<article class="feature">
+		<article class="feature slideUp">
 			<img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png">
 			<h1>about1</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 		</article>
-		<article class="feature">
+		<article class="feature slideUp">
 			<img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png">
 			<h1>about2</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
 		</article>
-		<article class="feature">
+		<article class="feature slideUp">
 			<img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/1024/sign-check-icon.png">
 			<h1>about3</h1>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
