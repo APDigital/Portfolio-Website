@@ -121,11 +121,11 @@ ul{
 	margin: 10px 1%;
 	min-width: 390px;
 	max-width: 390px;
-	max-height: 360px;
+	max-height: 460px;
 	width: 48%;
 	background: #3085a3;
 	text-align: center;
-	cursor: pointer;
+	cursor: pointer; 
 }
 
 .grid figure img {
