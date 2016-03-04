@@ -1,5 +1,6 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway');
 * { margin: 0; padding: 0; border: 0; }
+
 h1 {
 	font-family: 'Raleway';
 	font-size: 3em;
@@ -89,13 +90,13 @@ ul{
 }
 .section{
 	padding: 80px 20px;
-	border-radius: 6px;
 }
-.features{
-	margin-top: -4em;
+.description1{
+	margin-bottom: 50px;
 }
 .description{
 	margin-bottom: 50px;
+	margin-top: -2em;
 }
 .feature img{
 	max-width: 15em;
@@ -127,7 +128,6 @@ ul{
 	clear: both;
 	margin-left: 50em;
 	margin-top: 2em;
-	margin-bottom: -4em;
 }	
 .button-feature:hover{
 	background-color: #0F497B;
@@ -154,12 +154,11 @@ ul{
 	background:url("https://free4kwallpapers.com/wallpaper/science/low-poly-ice/0RGX/2880/1800/download") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 80vh;
+	height: 75vh;
 }
 .artwork-text{
 	text-align: center;
 	color: #01263B;
-	margin-top: -1em;
 }
 .Red-Bubble{
 	margin-left: 27em;
@@ -168,59 +167,65 @@ ul{
 .Red-Bubble2{
 	visibility: hidden;
 }
-.LinkedSites{
-	height: 48vh;
-	margin-top: -3em;
-	margin-bottom: 1em;
+.contact{
+	position: relative;
+	font-size: 0.8em;
+	padding: 3em;
+	background-color: #383738;
+	color: white;
 }
+
 .items{
-	margin-top: 2em;
-	padding-top: -2em;
+	margin-top: -1em;
+	margin-left: 36em;
+}
+.image1 img{
+	width: 60px;
+	height: auto;
 }
 .image1{
-	max-height: 15em;
 	display: inline-block;
-	padding: 0 3em;
+	padding: 0 2em;
+	padding-left: 8em;
 }
+
 .image1:hover{
 	opacity: 0.55;
 }
+.image2 img{
+	width: 60px;
+	height: auto;
+}
 .image2{
-	max-height: 15em;
 	display: inline-block;
-	padding: 0 3em;
+	padding: 0 2em;
 }
 .image2:hover{
 	opacity: 0.55;
 }
+.image3 img{
+	width: 60px;
+	height: auto;
+}
 .image3{
-	max-height: 15em;
 	display: inline-block;
-	padding: 0 3em;
+	padding: 0 2em;
 }
 .image3:hover{
 	opacity: 0.55;
 }
+.image4 img{
+	width: 60px;
+	height: auto;
+}
 .image4{
-	max-height: 15em;
 	display: inline-block;
-	padding: 0 3em;
+	padding: 0 2em;
 }
 .image4:hover{
 	opacity: 0.55;
 }
-.contact{
-	max-height: 15vh;
-	overflow: hidden;
-	vertical-align: middle;
-	transform: translateY(-60%);
-}
 
-@media screen and (max-width: 1890px) {
-.image5{
-	visibility: hidden;
-}
-}
 @media screen and (max-width: 1680px) {
 .feature{
 	display: inline-block;
@@ -233,10 +238,6 @@ ul{
 	margin-left: 20em;
 	vertical-align: middle;
 }
-.image5{
-	visibility: hidden;
-}
-
 }
 
 @media screen and (max-width: 1580px) {
@@ -254,10 +255,6 @@ ul{
 	margin-left: 10em;
 	vertical-align: middle;
 }
-.contact{
-	max-height: 20vh;
-	margin-top: 4em;
-}
 .image1{
 	padding: 0 3em;
 	margin-left: 5em;
@@ -269,7 +266,7 @@ ul{
 	padding: 0 3em;
 }
 .image4{
-	visibility: hidden;
+	padding: 0 3em;
 }
 
 }
@@ -278,19 +275,17 @@ ul{
 	display: inline-block;
 	padding: 0 5em;
 }
-.image3{
-	visibility: hidden;
-}
+
 .button {
 	visibility: hidden;
 }
 .button-mobile{
 	margin-left: 40em;
 	margin-top: -15em;
-	height: 80px;
-	padding-top: 80px;
+	height: 60px;
+	padding-top: 60px;
 	padding-right: 60px;
-	padding-left: 60px;
+	padding-left: 30px;
 	visibility: visible;
 }	
 .button-mobile:hover{
@@ -299,19 +294,24 @@ ul{
 }
 .button-feature{
 	margin-left: 41em;
-	margin-top: -34em;
-	height: 80px;
-	padding-top: 80px;
+	margin-top: -26em;
+	height: 60px;
+	padding-top: 60px;
 	padding-right: 60px;
-	padding-left: 60px;
+	padding-left: 30px;
 }
 .image1{
 	margin-right:2em;
 }
 .image2{
 	margin-left:2em;
-	}
-
+}
+.image3{
+	margin-left:2em;
+}
+.image4{
+	margin-left:2em;
+}
 }
 @media screen and (max-width: 1380px) {
 .feature{
@@ -323,14 +323,6 @@ ul{
 	margin-left: 3em;
 	vertical-align: middle;
 }
-.image1{
-	margin-right:2em;
-}
-.image2{
-	margin-left:2em;
-	}
-}
-
 }
 @media screen and (max-width: 1180px) {
 .feature{
@@ -343,12 +335,6 @@ ul{
 	margin-left: 1em;
 	vertical-align: middle;
 }
-.image1{
-	padding: 0 3em;
-}
-.image2{
-	padding: 0 3em;
-	}
 }
 @media screen and (max-width: 980px) {
 .nav{
