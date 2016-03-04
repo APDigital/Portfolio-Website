@@ -1,23 +1,28 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway');
-
+* { margin: 0; padding: 0; border: 0; }
 h1 {
 	font-family: 'Raleway';
 	font-size: 3em;
+	margin: 5px;
 }
 h2{
 	font-family: 'Raleway';
 	font-size: 2em;
+	margin: 5px;
 }
 h3{
 	font-family: 'Raleway';
+	margin: 5px;	
 	}
 p {
 	font-family: 'Raleway';
 	font-size: 1.6em;
+	margin: 5px;	
 }
 a {
 	font-family: 'Raleway';
 	text-decoration: none;
+	margin: 5px;	
 }
 ul{
 	list-style: none;
@@ -28,9 +33,14 @@ ul{
 	background-size: cover;
 	background-attachment: fixed;
 	height: 50vh;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+
 }
 .wrapper{
 	float: right;
+	line-height: 3.5em;
 	color: #01263B;
 	text-align: center;
 	padding: 4em;
@@ -55,6 +65,8 @@ ul{
 	text-transform: uppercase;
 	border-radius: 60px;
 	clear: both;
+	text-align: center;
+	line-height: 2em;
 }	
 .button:hover{
 	background-color: #0F497B;
@@ -77,6 +89,7 @@ ul{
 }
 .section{
 	padding: 80px 20px;
+	border-radius: 6px;
 }
 .features{
 	margin-top: -4em;
@@ -113,6 +126,8 @@ ul{
 	border-radius: 60px;
 	clear: both;
 	margin-left: 50em;
+	margin-top: 2em;
+	margin-bottom: -4em;
 }	
 .button-feature:hover{
 	background-color: #0F497B;
@@ -147,7 +162,7 @@ ul{
 	margin-top: -1em;
 }
 .Red-Bubble{
-	margin-left: 25em;
+	margin-left: 27em;
 	vertical-align: middle;
 }
 .Red-Bubble2{
@@ -165,7 +180,7 @@ ul{
 .image1{
 	max-height: 15em;
 	display: inline-block;
-	padding: 0 1em;
+	padding: 0 3em;
 }
 .image1:hover{
 	opacity: 0.55;
@@ -173,7 +188,7 @@ ul{
 .image2{
 	max-height: 15em;
 	display: inline-block;
-	padding: 0 1em;
+	padding: 0 3em;
 }
 .image2:hover{
 	opacity: 0.55;
@@ -181,7 +196,7 @@ ul{
 .image3{
 	max-height: 15em;
 	display: inline-block;
-	padding: 0 1em;
+	padding: 0 3em;
 }
 .image3:hover{
 	opacity: 0.55;
@@ -189,17 +204,9 @@ ul{
 .image4{
 	max-height: 15em;
 	display: inline-block;
-	padding: 0 1em;
+	padding: 0 3em;
 }
 .image4:hover{
-	opacity: 0.55;
-}
-.image5{
-	max-height: 15em;
-	display: inline-block;
-	padding: 0 1em;
-}
-.image5:hover{
 	opacity: 0.55;
 }
 .contact{

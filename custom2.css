@@ -1,23 +1,28 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway');
-
+* { margin: 0; padding: 0; border: 0; }
 h1 {
 	font-family: 'Raleway';
 	font-size: 3em;
+	margin: 5px;
 }
 h2{
 	font-family: 'Raleway';
 	font-size: 2em;
+	margin: 5px;
 }
 h3{
 	font-family: 'Raleway';
+	margin: 5px;	
 	}
 p {
 	font-family: 'Raleway';
 	font-size: 1.6em;
+	margin: 5px;	
 }
 a {
 	font-family: 'Raleway';
 	text-decoration: none;
+	margin: 5px;	
 }
 ul{
 	list-style: none;
@@ -32,6 +37,7 @@ ul{
 .wrapper{
 	float: right;
 	color: #01263B;
+		line-height: 3.5em;
 	text-align: center;
 	padding: 4em;
 	height: 37.7vh;

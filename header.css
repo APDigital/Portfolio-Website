@@ -3,10 +3,13 @@
 	background-color:white; 
 	text-align: center;
 	position: fixed;
-	width: fill;
+	width: 30%;
 	float: right;
 	z-index: 1000;
-	margin-left: -2em;
+	visibility: visible;
+	height: 3em;
+	border-radius: 6px;
+
 }
 span{
 	color: #0F497B;
@@ -16,9 +19,9 @@ span{
 	display: inline-block;
 	margin:0 2em;
 	font-family: 'Raleway';
-	font-size: 1em;
+	font-size: 1.1em;
 	list-style-type: none;
-
+	padding-top:0.9em;
 }
 li a {
 	color: black;
