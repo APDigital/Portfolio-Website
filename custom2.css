@@ -27,7 +27,9 @@ a {
 ul{
 	list-style: none;
 }
-
+.clearfix{
+	overflow: auto;
+}
 .hero{
 	background:url("https://free4kwallpapers.com/wallpaper/science/low-poly-ice/0RGX/2880/1800/download") no-repeat center;
 	background-size: cover;
@@ -51,68 +53,70 @@ ul{
 	margin-top: 2em;
 	clear: both;
 }
-.LinkedSites{
-	height: 50vh;
+.contact{
 	clear: both;
+	position: relative;
+	font-size: 0.8em;
+	padding: 0;
+	background-color: #383738;
+	color: white;
+	height: 200px;
+	margin-top: 3em;
 }
-.LinkedSites h2{
-	padding: 2em 0;
+
+.items{
+	margin-left: 36em;
+}
+.image1 img{
+	width: 60px;
+	height: auto;
 }
 .image1{
-	max-height: 8em;
 	display: inline-block;
-	padding: 0 1em;
+	padding: 0 2em;
+	padding-left: 8em;
 }
+
 .image1:hover{
 	opacity: 0.55;
 }
+.image2 img{
+	width: 60px;
+	height: auto;
+}
 .image2{
-	max-height: 15em;
 	display: inline-block;
-	padding: 0 1em;
+	padding: 0 2em;
 }
 .image2:hover{
 	opacity: 0.55;
 }
+.image3 img{
+	width: 60px;
+	height: auto;
+}
 .image3{
-	max-height: 15em;
 	display: inline-block;
-	padding: 0 1em;
+	padding: 0 2em;
 }
 .image3:hover{
 	opacity: 0.55;
 }
+.image4 img{
+	width: 60px;
+	height: auto;
+}
 .image4{
-	max-height: 15em;
 	display: inline-block;
-	padding: 0 1em;
+	padding: 0 2em;
 }
 .image4:hover{
 	opacity: 0.55;
 }
-.image5{
-	max-height: 15em;
-	display: inline-block;
-	padding: 0 1em;
-}
-.image5:hover{
-	opacity: 0.55;
-}
-.contact{
-	margin-top: 8em;
-	max-height: 40vh;
-	overflow: hidden;
-	vertical-align: middle;
-	transform: translateY(-60%);
-	clear: both;
-}
-.contact-text-center{
-	text-align: center;
-}
 
 .grid {
 	position: relative;
-	margin: 0 auto 2em auto;
+	margin: 0 auto 6em auto;
 	padding: 1em 0 2em;
 	max-width: 1250px;
 	list-style: none;
@@ -221,26 +225,9 @@ figure.effect-marley:hover h2::after {
 }
 }
 
-@media screen and (max-width: 1890px) {
-.wrapper{
-	height: 36.8vh;
-}
-.image5{
-	visibility: hidden;
-}
-}
-@media screen and (max-width: 1680px) {
-.wrapper{
-	height: 36.8vh;
-}
-.image5{
-	visibility: hidden;
-}
-}
 
 @media screen and (max-width: 1580px) {
 .contact{
-	max-height: 50vh;
 	margin-top: 4em;
 }
 .image1{
@@ -253,33 +240,10 @@ figure.effect-marley:hover h2::after {
 	padding: 0 3em;
 }
 .image4{
-	visibility: hidden;
-}
-}
-@media screen and (max-width: 1480px) {
-.contact{
-	max-height: 50vh;
-}
-}
-@media screen and (max-width: 1380px) {
-.image1{
-	padding: 0 6em;
-}
-.image2{
-	padding: 0 6em;
-	}
-.image3{
-	visibility: hidden;
-}
-}
-@media screen and (max-width: 1180px) {
-.image1{
 	padding: 0 3em;
 }
-.image2{
-	padding: 0 3em;
-	}
 }
+
 @media screen and (max-width: 980px) {
 .nav{
 	margin-top: 14em;
@@ -287,26 +251,3 @@ figure.effect-marley:hover h2::after {
 .hero{
 	margin-top: -14em;
 }
-.image1{
-	padding: 0 2em;
-}
-.image2{
-	padding: 0 2em;
-	}
-}
-
-@media screen and (max-width: 920px) {
-
-.image1{
-	padding: 0 0.5em;
-}
-.image2{
-	padding: 0 0.5em;
-	}
-}
-@media screen and (max-width: 790px) {
-.image2{
-	visibility: hidden;
-
-}
-	}
