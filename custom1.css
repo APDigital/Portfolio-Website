@@ -186,7 +186,7 @@ ul{
 .image1{
 	display: inline-block;
 	padding: 0 2em;
-	padding-left: 8em;
+	margin-left: -8em;
 }
 
 .image1:hover{
@@ -223,6 +223,17 @@ ul{
 	padding: 0 2em;
 }
 .image4:hover{
+	opacity: 0.55;
+}
+.image5 img{
+	width: 60px;
+	height: auto;
+}
+.image5{
+	display: inline-block;
+	padding: 0 2em;
+}
+.image5:hover{
 	opacity: 0.55;
 }
 
