@@ -1,32 +1,40 @@
 @import url('http://fonts.googleapis.com/css?family=Raleway');
 * { margin: 0; padding: 0; border: 0; }
+
 h1 {
-	font-family: 'Raleway';
+	font-family: 'Khula';
 	font-size: 3em;
 	margin: 5px;
+	font-weight: lighter;
 }
 h2{
-	font-family: 'Raleway';
+	font-family: 'Khula';
 	font-size: 2em;
 	margin: 5px;
+	font-weight: lighter;
 }
 h3{
-	font-family: 'Raleway';
-	margin: 5px;	
+	font-family: 'Khula';
+	margin: 5px;
+	font-weight: lighter;	
 	}
 p {
-	font-family: 'Raleway';
+	font-family: 'Khula';
 	font-size: 1.6em;
-	margin: 5px;	
+	margin: 5px;
+	font-weight: lighter;	
 }
 a {
-	font-family: 'Raleway';
+	font-family: 'Khula';
 	text-decoration: none;
 	margin: 5px;	
+	font-weight: lighter;
 }
 ul{
 	list-style: none;
+	font-weight: lighter;
 }
+
 .clearfix{
 	overflow: auto;
 }
@@ -34,19 +42,34 @@ ul{
 	background:url("https://free4kwallpapers.com/wallpaper/science/low-poly-ice/0RGX/2880/1800/download") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 50vh;
+	height: 65vh;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
 }
 .wrapper{
 	float: right;
+	line-height: 3.5em;
 	color: #01263B;
-		line-height: 3.5em;
 	text-align: center;
 	padding: 4em;
-	height: 37.7vh;
+	height: 37.7vh;	
 }
+.site-branding {
+	width: 30%;
+    background-color: #383738;
+	color: white;
+    background-size: auto auto;
+    display: inline-block;
+    margin-left: 40em;
+    margin-top: 10em;
+    padding: 1.7em;
+    }
 .text{
 	z-index: 1000;
-	opacity: 1;
+	vertical-align: middle;
+	text-align: center;
+	color: white;
 }
 .text-center{
 	text-align: center;
@@ -60,7 +83,7 @@ ul{
 	padding: 0;
 	background-color: #383738;
 	color: white;
-	height: 200px;
+	height: 220px;
 	margin-top: 3em;
 }
 

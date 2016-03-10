@@ -1,70 +1,35 @@
-@import url('http://fonts.googleapis.com/css?family=Raleway');
+@import url('http://fonts.googleapis.com/css?family=Khula');
 .nav{
-	background-color:white; 
-	text-align: center;
-	position: fixed;
-	width: 30%;
+	background-color: #383738;
+	color: white;
+	text-align: left;
+	width: 100%;
 	float: right;
 	z-index: 1000;
-	visibility: visible;
-	height: 3em;
-	border-radius: 6px;
-
+	height: 4em;
+	margin-bottom: 2em;
 }
 span{
-	color: #0F497B;
-	font-weight: bold;
+	color: white;
+	opacity: 1;
 }
  li {
 	display: inline-block;
-	margin:0 2em;
-	font-family: 'Raleway';
-	font-size: 1.1em;
+	font-family: 'Khula';
 	list-style-type: none;
-	padding-top:0.9em;
+	font-weight: lighter;
+	font-size: 1em;
+	letter-spacing: 1px;
+	padding: 1.25em 1.7em;
+	text-transform: uppercase;
 }
 li a {
-	color: black;
+	color: white;
+	opacity: 0.8;
 	text-decoration: none;
 
 }
 li a:hover{
-	color: #0F497B;
-	font-weight: bold;
-
-}
-@media screen and (max-width: 1580px) {
-	.nav{
-		width: 40%;
-	}
-}	
-@media screen and (max-width: 1380px){
-	.nav{
-		width: 50%;
-	}
-}
-@media screen and (max-width: 920px) {
-	.nav{
-		width: 60%;
-	}
-}
-@media screen and (max-width:720px){
-	.nav{
-		width: 80%;
-	}
-}
-@media screen and (max-width: 520px){
-	.nav{
-		width: 100%;
-	}
-}
-@media screen and (max-width: 420px){
-	.nav{
-		height: 10%;
-	}
-}
-@media screen and (max-width: 320px){
-	.nav{
-		height: 15%;
-	}
+	color: white;
+	opacity: 1;
 }

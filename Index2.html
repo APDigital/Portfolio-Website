@@ -7,39 +7,52 @@
 	<link rel="stylesheet" href="animations.css">
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
+<script>
+	$(window).scroll(function() {
+		$('.grid').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+990) {
+				$(this).addClass("slideUp");
+			}
+		});
+	});
+</script>
 <body>
 <!--header-->
 <header class="header">
-	<nav class="nav">
+	
+</header>
+<!--Main Content-->
+<main class="main" role="main">
+<section class="hero">
+		<div class="site-branding">
+			<article class="text">
+				<h1>APDigital</h1>
+				<h2>Digital and Hand Made Artwork</h2>
+			</article>
+		</div>
+	</div>
+	</section>
+	<section class="nav">
 		<ul class="menu">
 			<li class="item">
-				<a href="file:///C:/Users/APearson/Documents/Web%20Design%20Experiment/Profile%20Site/Index1.html#">Home</a>
+
+				<a href="file:///C:/Users/APearson/Documents/Web%20Design%20Experiment/Profile%20Site/Index1.html#"><span>Home</span></a>
 			</li>
 			<li class="item">
-				<a href="file:///C:/Users/APearson/Documents/Web%20Design%20Experiment/Profile%20Site/Index2.html"><span>Gallery</span</a>
+				<a href="file:///C:/Users/APearson/Documents/Web%20Design%20Experiment/Profile%20Site/Index2.html">Gallery</a>
 			</li>
 			<li class="item">
 				<a href="#">Blog</a>
 			</li>
 		</ul>
-	</nav>
-</header>
-<!--Main Content-->
-<main class="main" role="main">
-	<section class="hero">
-
-		<div class="wrapper">
-			<article class="text">
-				<h1>APDigital Portfolio</h1>
-				<h2>Digital and Hand Made Artwork</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-			</article>
-
-	</div>
 	</section>
 	<section class="Gallery">
 		<h2 class="text-center">Gallery</h2>
-		<div class="grid  slideUp clearfix">
+		<p class="description1 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniamLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+		<div class="grid clearfix">
 			<figure class="effect-marley">
 				<img src="http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-237102.png" alt="img12"/>
 				<figcaption>
