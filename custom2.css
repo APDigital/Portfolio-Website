@@ -1,31 +1,35 @@
-@import url('http://fonts.googleapis.com/css?family=Raleway');
 * { margin: 0; padding: 0; border: 0; }
 
 h1 {
-	font-family: 'Khula';
-	font-size: 3em;
+	font-family: 'Hind Siliguri', sans-serif;
+	letter-spacing: 4px;
+	font-size: 1.8em;
 	margin: 5px;
 	font-weight: lighter;
+	text-transform: uppercase;
 }
 h2{
-	font-family: 'Khula';
-	font-size: 2em;
+	font-family: 'Hind Siliguri', sans-serif;
+	font-size: 1em;
+	letter-spacing: 2px;
 	margin: 5px;
 	font-weight: lighter;
+	color: #9C9EA0;
+	margin-bottom: 1em;
 }
 h3{
-	font-family: 'Khula';
+	font-family: 'Hind Siliguri', sans-serif;
 	margin: 5px;
 	font-weight: lighter;	
 	}
 p {
-	font-family: 'Khula';
+	font-family: 'Hind Siliguri', sans-serif;
 	font-size: 1.6em;
 	margin: 5px;
 	font-weight: lighter;	
 }
 a {
-	font-family: 'Khula';
+	font-family: 'Hind Siliguri', sans-serif;
 	text-decoration: none;
 	margin: 5px;	
 	font-weight: lighter;
@@ -34,61 +38,72 @@ ul{
 	list-style: none;
 	font-weight: lighter;
 }
-
-.clearfix{
-	overflow: auto;
+.line img{
+	width: 8em;
+	opacity: 0.4;
+	padding: 2em 0;
 }
 .hero{
 	background:url("https://free4kwallpapers.com/wallpaper/science/low-poly-ice/0RGX/2880/1800/download") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 65vh;
+	height: 70vh;
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
 }
 .wrapper{
 	float: right;
-	line-height: 3.5em;
+	line-height: 4.8em;
 	color: #01263B;
 	text-align: center;
 	padding: 4em;
 	height: 37.7vh;	
 }
 .site-branding {
-	width: 30%;
-    background-color: #383738;
+	width: 20%;
+    background-color: #1d1d1d;
 	color: white;
     background-size: auto auto;
     display: inline-block;
-    margin-left: 40em;
-    margin-top: 10em;
+    margin-left: 45em;
+    margin-top: 13em;
     padding: 1.7em;
+    box-shadow: 6px;
     }
 .text{
 	z-index: 1000;
 	vertical-align: middle;
 	text-align: center;
 	color: white;
+	padding: 1em;
+	
 }
 .text-center{
 	text-align: center;
 	margin-top: 2em;
 	clear: both;
 }
+#M{
+	color: white;
+	font-weight: bold;
+}
+#S{
+	color: white;
+}
 .contact{
 	clear: both;
 	position: relative;
 	font-size: 0.8em;
-	padding: 0;
-	background-color: #383738;
+	padding: 1em;
+	background-color: #1d1d1d;
 	color: white;
 	height: 220px;
 	margin-top: 3em;
 }
 
 .items{
-	margin-left: 36em;
+	margin-left: 54em;
 }
 .image1 img{
 	width: 60px;

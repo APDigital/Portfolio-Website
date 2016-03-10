@@ -1,6 +1,5 @@
-@import url('http://fonts.googleapis.com/css?family=Khula');
 .nav{
-	background-color: #383738;
+	background-color: #1d1d1d;
 	color: white;
 	text-align: left;
 	width: 100%;
@@ -9,16 +8,19 @@
 	height: 4em;
 	margin-bottom: 2em;
 }
+.item img{
+	max-width: 2em;
+}
 span{
 	color: white;
 	opacity: 1;
 }
  li {
 	display: inline-block;
-	font-family: 'Khula';
+	font-family: 'Hind Siliguri', sans-serif;
 	list-style-type: none;
 	font-weight: lighter;
-	font-size: 1em;
+	font-size: 0.9em;
 	letter-spacing: 1px;
 	padding: 1.25em 1.7em;
 	text-transform: uppercase;
