@@ -46,7 +46,7 @@ ul{
 	background:url("https://free4kwallpapers.com/wallpaper/science/low-poly-ice/0RGX/2880/1800/download") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 70vh;
+	height: 40em;
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -179,7 +179,7 @@ ul{
 }
 .artwork{
 	background-color: #1d1d1d;
-	height: 75vh;
+	height: 50em;
 	margin-bottom: -0.3em;
 }
 .artwork-text{
@@ -203,7 +203,7 @@ ul{
 	background:url("owl.jpg") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 80vh;
+	height: 50em;
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -220,7 +220,7 @@ ul{
 	background:url("peacock.jpg") no-repeat center;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 80vh;
+	height: 50em;
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
@@ -306,11 +306,16 @@ ul{
 .image5:hover{
 	opacity: 0.55;
 }
-
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 1780px){
 .feature{
 	display: inline-block;
 	padding: 0 2em;
+}
+}
+@media screen and (max-width: 1680px) {
+.feature{
+	display: inline-block;
+	padding: 0 1em;
 }
 .button-feature{
 	margin-left: 41em;
@@ -333,7 +338,7 @@ ul{
 	padding: 0 1em;
 }
 .button-feature{
-		margin-left: 38em;
+	margin-left: 38em;
 }
 .Red-Bubble{
 	margin-left: 10em;
@@ -360,44 +365,35 @@ ul{
 @media screen and (max-width: 1480px) {
 .feature{
 	display: inline-block;
-	padding: 0 5em;
+	padding: 0 1em;
+	margin-left: 8em;
+}
+.site-branding {
+    margin-left: 34em;
+    margin-top: 4em;
+    }
+.button{
+    padding-bottom: 1.8em;
 }
 
-.button {
-	visibility: hidden;
-}
-.button-mobile{
-	margin-left: 40em;
-	margin-top: -15em;
-	height: 60px;
-	padding-top: 60px;
-	padding-right: 60px;
-	padding-left: 30px;
-	visibility: visible;
-}	
-.button-mobile:hover{
-	background-color: #0F497B;
-	color: white;
-}
-.button-feature{
-	margin-left: 41em;
-	margin-top: -26em;
-	height: 60px;
-	padding-top: 60px;
-	padding-right: 60px;
-	padding-left: 30px;
-}
 .image1{
 margin-left: -30em;
 }
 }
 @media screen and (max-width: 1380px) {
-		.nav{
-		width: 8em;
-	}
+.site-branding{
+	margin-left: 18em;
+	width: 30%
+}
+.nav{
+	width: 8em;
+}
 .feature{
 	display: inline-block;
-	padding: 0 2em;
+	padding: 0 0em;
+}
+.button-feature{
+	margin-left: -2em;
 }
 .image1{
 	margin-left: -24em;
@@ -406,14 +402,18 @@ margin-left: -30em;
 	margin-left: 3em;
 	vertical-align: middle;
 }
+.button-feature{
+	visibility: hidden;
+
+}
 }
 @media screen and (max-width: 1180px) {
-	.nav{
-		width: 8em;
-	}
+.nav{
+	width: 8em;
+}
 .feature{
 	display: inline-block;
-	padding: 0 2em;
+	padding: 0 1em;
 	margin-left: 17em;
 }
 .image1{
@@ -441,18 +441,13 @@ margin-left: -30em;
 	margin-left: 1em;
 	vertical-align: middle;
 }
-.button-feature{
-	visibility: hidden;
-}
-.button-mobile{
-	visibility: hidden;
-}
+
 }
 @media screen and (max-width: 980px) {
 
 
 .artwork{
-	height: 85vh; 
+	height: 50em; 
 }
 .Red-Bubble{
 	visibility: hidden;
@@ -487,7 +482,7 @@ margin-left: -30em;
 }
 .feature{
 	display: inline-block;
-	padding: 0 2em;
+	padding: 0 1em;
 	margin-left: 10em;
 }
 }
@@ -575,6 +570,10 @@ h3{
 	vertical-align: middle;
 	margin-top: -46em;
 }
+.site-branding{
+	width: 50%;
+	margin-left: 7em;
+}
 }
 @media screen and (max-width: 520px){
 .feature{
@@ -608,6 +607,13 @@ h3{
 		margin-left: auto;
 		vertical-align: middle;
 		margin-top: -30em;
+	}
+	.site-branding{
+		width: 70%;
+		margin-left: 2em;
+	}
+	.img-owl h1{
+		padding-top: -4em;
 	}
 }
 @media screen and (max-width: 380px){
