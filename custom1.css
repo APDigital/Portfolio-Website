@@ -180,6 +180,7 @@ ul{
 .artwork{
 	background-color: #1d1d1d;
 	height: 75vh;
+	margin-bottom: -0.3em;
 }
 .artwork-text{
 	text-align: center;
@@ -198,10 +199,44 @@ ul{
 .Red-Bubble4{
 	visibility: hidden;
 }
-
+.img-owl{
+	background:url("owl.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 80vh;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	opacity: 0.7;
+	background-color: #1d1d1d;
+}
+.img-owl h1{
+	opacity: 1;
+	text-align: center;
+	padding-top: 40vh;
+	font-weight: bold;
+}
+.img-peacock{
+	background:url("peacock.jpg") no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 80vh;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	opacity: 0.7;
+	background-color: #1d1d1d;
+}
+.img-peacock h1{
+	opacity: 1;
+	text-align: center;
+	padding-top: 40vh;
+	font-weight: bold;
+}
 .Lorem2{
 	background-color: #1d1d1d;
 	color: white;
+	margin-bottom: -0.4em;
 }
 .contact{
 	position: relative;
