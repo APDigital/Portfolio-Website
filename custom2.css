@@ -81,7 +81,7 @@ ul{
 }
 .text-center{
 	text-align: center;
-	margin-top: 2em;
+	margin: 2em 0;
 	clear: both;
 }
 #M{
@@ -98,10 +98,11 @@ ul{
 	padding: 1em;
 	background-color: #1d1d1d;
 	color: white;
-	height: 220px;
-	margin-top: 3em;
+	height: 280px;
 }
-
+.Gallery{
+	padding-bottom: 2em;
+}
 .items{
 	margin-left: 54em;
 }
@@ -170,6 +171,7 @@ ul{
 	max-width: 1250px;
 	list-style: none;
 	text-align: center;
+	margin-bottom: 2em;
 }
 
 /* Common style */
